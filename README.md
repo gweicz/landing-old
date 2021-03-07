@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gwei.cz | Oficiální web CZ/SK Ethereum/DeFi komunity
 
-## Getting Started
+Web slouží jako zakladní představení Gwei.cz komunity a zároveň jako rozcestník mezi projekty, které vznikají v rámci nebo s podporou komunity.
 
-First, run the development server:
+## Použité technologie
+- [Next.js](https://nextjs.org/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Development
+**Prerekvizity**
+- Instalace Node.js: [https://nodejs.org/en/](https://nodejs.org/en/)
+- Instalace YARN: [https://classic.yarnpkg.com/en/docs/install](https://classic.yarnpkg.com/en/docs/install)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Zprovoznění projektu**
+- Naklonování projektu na lokální počítač
+- Instalace závislostí: `$ yarn install`
+- Spuštění dev serveru: `$ yarn dev`
+  - *Dev server se spustí na [localhost:3000](http://localhost:3000)*
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Aktualizování sekce "NOVINKY V KOMUNITĚ"**
+- Seznam příspěvků najdete v souboru `public/data/posts.json`
+- Pokud chcete přidat nový příspěvěk, smažte poslední v seznamu, 
+  a váš nový vložte na začátek seznamu
+- Všechny příspěvky by měly vést na fórum a měly by informovat
+  o nejdůležitějších událostech v komunitě
+    
+## Deployment
+- TODO

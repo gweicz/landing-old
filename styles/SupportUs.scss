@@ -1,0 +1,210 @@
+@import "styles/_default/variables";
+
+.section-dao {
+  padding: 3rem .75rem 0rem .75rem;
+  background-color: $cl-grey-default;
+  color: $cl-grey-darkest;
+
+  .section-title {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: $cl-grey-darkest;
+  }
+
+  .support-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .supportus-text {
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.25rem;
+    margin-top: 1.5rem;
+    max-width: 420px;
+  }
+}
+
+.support-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 1rem;
+  font-weight: 300;
+  font-size: .85rem;
+  color: #212231;
+
+  .qr-code {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .qr-code img {
+    width: 160px !important;
+    height: 160px !important;
+    position: relative !important;
+    top: 3px !important;
+    border: 20px solid #ffffff !important;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .support-text {
+    text-align: left;
+  }
+
+  .support-text h4 {
+    font-size: 1rem;
+    margin: 1.5rem 0 0;
+  }
+
+  .support-text p {
+    font-size: .9rem;
+    line-height: 1.25rem;
+    margin: .5rem 0 0 0;
+  }
+
+  .support-text a {
+    color: #2A7BBF;
+    text-decoration: underline;
+  }
+
+  .ethereum-addresses-wrapper {
+    margin: 1rem 0;
+    padding: 0 .5rem;
+  }
+
+  .ethereum-address {
+    margin-top: .75rem !important;
+    font-size: .8rem !important;
+    line-height: 1rem !important;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 576px) {
+
+  .dao-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1.5rem;
+
+    .right-panel {
+      text-align: left;
+    }
+  }
+
+  .section-dao {
+    .section-title {
+      text-align: left;
+    }
+
+    .support-title-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .supportus-text {
+      max-width: none;
+      margin: 1.5rem 0 0 0;
+    }
+
+    .dao-text {
+      font-size: .85rem;
+    }
+
+    .dao-icon {
+      display: none;
+    }
+  }
+
+  .dao-content {
+    text-align: left;
+  }
+
+  .dao-buttons {
+    .dao-button {
+      padding: .5rem 0;
+      max-width: 240px;
+    }
+
+    .dao-button a {
+      font-size: .95rem;
+    }
+  }
+
+  .support-wrapper {
+    margin: 1rem 0 0;
+    padding: 0;
+
+    .qr-code {
+      margin-left: 10%;
+      text-align: left;
+    }
+  }
+
+  .support-text {
+    font-size: .85rem;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-dao {
+    padding: 3.5rem 3rem 0 3rem !important;
+
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .supportus-text {
+      margin-top: .75rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .support-wrapper {
+    .support-text h4 {
+      font-size: 1.2rem;
+    }
+
+    .support-text p {
+      font-size: 1rem !important;
+    }
+
+    .qr-code img {
+      width: 180px !important;
+      height: 180px !important;
+      border: 20px solid #ffffff !important;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .support-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #financial-support {
+    margin-right: 2rem;
+  }
+
+  .support-wrapper {
+    .ethereum-addresses-wrapper {
+      margin: 2rem 0 1rem 0;
+    }
+
+    .qr-code {
+      margin-top: 3rem;
+    }
+  }
+
+  .dao-wrapper .right-panel {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}

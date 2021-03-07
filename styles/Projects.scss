@@ -1,0 +1,242 @@
+@import "styles/_default/variables";
+
+.section-projects {
+  padding: 3rem .75rem 2rem .75rem;
+  background-color: $cl-grey-light;
+  color: $cl-grey-darkest;
+
+  .section-title {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .projects-text {
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.25rem;
+    margin-top: 1.5rem;
+    max-width: 420px;
+  }
+}
+
+.project-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+  margin: 3rem 0 1rem 0;
+
+  .project-button {
+    max-width: 210px;
+    padding: 1rem;
+    margin: 0 auto 1rem auto;
+    background-color: $cl-white;
+    font-weight: 700;
+    border-radius: 1rem;
+    transition: all .25s ease-in-out;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+  .project-button a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 0;
+    text-decoration: none;
+  }
+  
+  .project-button svg {
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .project-button .project-title-wrapper {
+    margin: 1.5rem 0;
+  }
+
+  .project-button h4 {
+    color: $cl-grey-darkest;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 0 !important;
+  }
+
+  .project-button .project-status {
+    margin: .25rem 0 0 0;
+    font-size: .8rem;
+    color: $cl-grey-dark;
+  }
+
+  .project-button p {
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 300;
+    color: $cl-grey-darkest;
+  }
+
+  .project-button .project-angle-right {
+    display: none;
+    color: $cl-red;
+    height: 1.5rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .project-buttons {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    margin: 2rem 1rem 0 1rem;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .project-buttons {
+    grid-column-gap: 2.5rem;
+    margin: 2rem 2rem 0 2rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .projects-wrapper .right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-projects .projects-text {
+    font-size: .95rem;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .section-projects {
+    padding: 2rem .75rem 2rem .75rem !important;
+  }
+
+  .projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1.5rem;
+    margin-bottom: 1rem;
+    
+    .right-panel {
+      text-align: left;
+      align-items: flex-start;
+    }
+  }
+
+  .section-projects .section-title {
+    text-align: left;
+  }
+
+  .section-projects .projects-text {
+    max-width: none;
+    margin-top: .5rem;
+  }
+
+  .project-buttons {
+    margin: 1rem 0 .5rem;
+    padding: 0;
+
+    .project-button {
+      max-width: none;
+      margin-bottom: 0;
+    }
+
+    .project-button a {
+      flex-direction: row;
+      text-align: left;
+    }
+
+    .project-button .project-header-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-button .project-title-wrapper {
+      margin: 0 0 .5rem 0;
+      display: flex;
+      align-items: center;
+
+      h6 {
+        margin: 0 0 0 .5rem;
+      }
+    }
+
+    .project-button svg {
+      width: 60px;
+      height: 60px;
+      margin-right: 1rem;
+    }
+
+    .project-button svg#guide-icon {
+      height: 40px;
+    }
+
+    .project-button span {
+      font-size: .78rem;
+    }
+
+    .project-button .project-angle-right {
+      display: block;
+    }
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .project-buttons {
+    .project-button {
+      padding: 1rem 1.25rem;
+    }
+
+    .project-button svg#guide-icon {
+      height: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-projects {
+    padding: 3.5rem 3rem 2.5rem 3rem !important;
+
+    .section-title {
+      font-size: 2rem;
+    }
+
+    .projects-text {
+      margin-top: .75rem;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  .project-buttons {
+    margin: 2rem auto .5rem auto;
+
+    .project-button {
+      width: 610px;
+    }
+
+    .project-button h4 {
+      font-size: 1.2rem;
+    }
+
+    .project-button p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects-wrapper .right-panel {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
