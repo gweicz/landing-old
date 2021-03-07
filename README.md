@@ -1,4 +1,4 @@
-# Gwei.cz | Oficiální web CZ/SK Ethereum/DeFi komunity
+# Gwei.cz | Oficiální web
 
 Web slouží jako zakladní představení Gwei.cz komunity a zároveň jako rozcestník mezi projekty, které vznikají v rámci nebo s podporou komunity.
 
