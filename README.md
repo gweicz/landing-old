@@ -24,4 +24,6 @@ Web slouží jako zakladní představení Gwei.cz komunity a zároveň jako rozc
   o nejdůležitějších událostech v komunitě
     
 ## Deployment
-- TODO
+- Zkontrolovat, jestli v `package.json` je nastavena správná subdoména/doména v `"deploy"` skriptu
+- Deployment: `$ yarn deploy`
+  - *Web se deployne na zadanou subdoménu/doménu*
