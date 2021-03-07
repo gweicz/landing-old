@@ -1,3 +1,5 @@
+const prod = process.env.NODE_ENV === 'production';
+
 module.exports = {
   webpack(config) {
     config.module.rules.push({
@@ -10,4 +12,11 @@ module.exports = {
 
     return config;
   },
+  exportPathMap: function () {
+    return {
+      "/": { page: "/" }
+    }
+  },
+  // basePath: '/gweicz-web',
+  // assetPrefix: prod ? '/gweicz-web' : '',
 };
