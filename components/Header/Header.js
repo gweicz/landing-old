@@ -40,7 +40,7 @@ function Header() {
           <ul>
             <li><a href="https://forum.gwei.cz/t/vitejte-na-diskuznim-foru-gwei-cz/7"> O Komunitě </a></li>
             <li><a href="https://forum.gwei.cz/" target="_blank"> Fórum </a></li>
-            <li> · </li>
+            <li><b> · </b></li>
             <li><a href="https://gwei.cz/prirucka/" target="_blank"> Příručka </a></li>
             <li><a href="https://hackmd.io/@gweicz/defi-toolkit" target="_blank"> DeFi Toolkit </a></li>
             <li><a href="https://czsk-scena.gwei.cz/" target="_blank"> CZ/SK Komunita </a></li>
@@ -59,8 +59,8 @@ function Header() {
             <li><a href="#"> About </a></li>
             <li><a href="https://forum.gwei.cz/" target="_blank"> Forum </a></li>
             <li><a href="https://blog.gwei.cz/" target="_blank"> Blog </a></li>
-            <li> · </li>
-            <li><a href="https://gwei.cz/prirucka/" target="_blank"> De-Fi Wiki </a></li>
+            <li><b> · </b></li>
+            <li><a href="https://gwei.cz/prirucka/" target="_blank"> DeFi Wiki </a></li>
             <li><a href="https://kurzy.gwei.cz/" target="_blank"> Kurzy </a></li>
             <li><a href="https://knihy.gwei.cz/" target="_blank"> Knihy </a></li>
             <li><a href="https://czsk-scena.gwei.cz/" target="_blank"> CZ/SK Komunita </a></li>

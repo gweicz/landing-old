@@ -39,6 +39,11 @@
     &:hover {
       transform: scale(1.03);
     }
+
+    &.grey {
+      opacity: 0.4;
+    }
+
   }
 
   .project-button a {
@@ -149,7 +154,7 @@
       max-width: none;
       margin-bottom: 0;
     }
-
+    
     .project-button a {
       flex-direction: row;
       text-align: left;

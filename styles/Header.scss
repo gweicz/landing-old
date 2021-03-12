@@ -8,6 +8,11 @@
   background-color: #1A1B27;
 
   &-items-container {
+
+    b {
+      opacity: .25;
+    }
+
     a {
       text-transform: uppercase;
       opacity: .25;

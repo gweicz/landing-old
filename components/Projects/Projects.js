@@ -16,11 +16,44 @@ function Projects() {
           <h2 className="section-title">Komunitní Projekty</h2>
           
           <p className="projects-text">
-            Komunitně vytváříme užitečné nástroje, sbíráme a překládáme důležité informace
+            Vytváříme užitečné nástroje, sbíráme a překládáme důležité informace
             pro fanoušky prahnoucí po vzdělání o Ethereu a jeho ekosystému.
           </p>
 
           <div className="project-buttons">
+
+            <div className="project-button">
+              <a href="https://forum.gwei.cz/t/etheroom-nas-audio-chat-kanal-na-discordu/220">
+                <CryptoSceneIcon />
+                <div className="project-header-wrapper">
+                  <div className="project-title-wrapper">
+                    <h4>#ETHEROOM</h4>
+                  </div>
+                  <p>
+                    Hlasová místnost s pravidelným programem, kde se scházíme a
+                    diskutujeme Ethereum a DeFi.
+                  </p>
+                </div>
+                <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
+              </a>
+            </div>
+
+            <div className="project-button">
+              <a href="https://hackmd.io/@gweicz/summit2021">
+                <DeFiIcon />
+                <div className="project-header-wrapper">
+                  <div className="project-title-wrapper">
+                    <h4>GWEI.CZ SUMMIT 2021</h4>
+                    <h6 className="project-status">PLÁNOVÁNO NA 07/2021</h6>
+                  </div>
+                  <p>
+                    Každoroční komunitní setkání, plné přednášek, workshopů a panelových diskuzí.
+                  </p>
+                </div>
+                <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
+              </a>
+            </div>
+
 
             <div className="project-button">
               <a href="https://prirucka.gwei.cz/">
@@ -83,7 +116,7 @@ function Projects() {
               </a>
             </div>
 
-            <div className="project-button">
+            <div className="project-button grey">
               <a href="https://github.com/gweicz/dczk">
                 <DczkIcon />
                 <div className="project-header-wrapper">

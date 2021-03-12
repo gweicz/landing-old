@@ -19,13 +19,11 @@ function Introduction() {
         <div className="right-panel">
           <div className="heading">
             <h2>Česko-Slovenská</h2>
-            <h1>Ethereum & De-Fi komunita</h1>
+            <h1>Ethereum & DeFi komunita</h1>
           </div>
 
           <p className="introduction-text">
-            Jsme komunita nadšenců, kteří se snaží tyto dvě technologie přiblížit širší krypto komunitě,
-            tvořit v rámci ní projekty a představit jí tak praktické využití kryptoměn,
-            jako peněz v decentralizovaných aplikacích.
+            Jsme komunita nadšenců, kteří se snaží šířit myšlenku svobodných peněž a představovat veřejnosti jejich praktické využití v rámci decentralizovaných aplikací.
             <br/>
             <a href="https://forum.gwei.cz/t/vitejte-na-diskuznim-foru-gwei-cz/7" target="_blank"> Více informací o komunitě ></a>
           </p>
@@ -38,7 +36,7 @@ function Introduction() {
             <ForumIcon />
             <h4>Fórum Gwei.cz</h4>
             <p>
-              Na našem fóru řešíme projekty a DAO governance naší komunity.
+              Základní komunikační nástroj, zde řešíme to nejpodstatnější.
             </p>
           </a>
         </div>
@@ -48,7 +46,7 @@ function Introduction() {
             <DiscordIcon />
             <h4>Discord Chat</h4>
             <p>
-              Základním komunikačním kanálem, kde se děje všechno, je náš Discord.
+              Prostor pro rychlou debatu, diskuze aktuálního dění v reálném čase.
             </p>
           </a>
         </div>
