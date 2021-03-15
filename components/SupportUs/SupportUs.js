@@ -22,7 +22,7 @@ function SupportUs() {
               <p>
                 Pokud s námi sdílíte nadšení pro rozvoj Ethereum a DeFi ekosystému
                 a jsou pro vás naše projekty užitečné, můžete se přimo&nbsp;
-                <a href="https://forum.gwei.cz/t/gwei-cz-pomozte-nam-s-rozvojem-nasich-projektu/284">
+                <a href="https://forum.gwei.cz/t/gwei-cz-pomozte-nam-s-rozvojem-nasich-projektu/284" target="_blank">
                   podílet na jejich rozvoji
                 </a>.
               </p>
@@ -39,7 +39,7 @@ function SupportUs() {
               <p>
                 Peníze využijeme k financování naší komunity, případně přerozdělíme jednotlivým projektům.
                 Podpořit nás můžete buď zasláním kryptoměn nebo v rámci&nbsp;
-                <a href="https://gitcoin.co/grants/">Gitcoin grantů</a>.
+                <a href="https://gitcoin.co/grants/" target="_blank">Gitcoin grantů</a>.
               </p>
               <div className="financial-support-addresses">
                 <div className="ethereum-addresses-wrapper">

@@ -32,7 +32,7 @@ function Introduction() {
 
       <div className="social-buttons">
         <div className="social-button">
-          <a href="https://forum.gwei.cz/">
+          <a href="https://forum.gwei.cz/" target="_blank">
             <ForumIcon />
             <h4>Fórum Gwei.cz</h4>
             <p>
@@ -42,7 +42,7 @@ function Introduction() {
         </div>
 
         <div className="social-button">
-          <a href="https://discord.gg/FpxwbnM">
+          <a href="https://discord.gg/FpxwbnM" target="_blank">
             <DiscordIcon />
             <h4>Discord Chat</h4>
             <p>
@@ -52,7 +52,7 @@ function Introduction() {
         </div>
 
         <div className="social-button">
-          <a href="https://twitter.com/gweicz">
+          <a href="https://twitter.com/gweicz" target="_blank">
             <FontAwesomeIcon icon={['fab', 'twitter']} style={{color: 'rgb(29,161,242)'}}/>
             <h4>Twitter</h4>
             <p>

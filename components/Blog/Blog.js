@@ -25,7 +25,7 @@ function Blog() {
 
             <div className="blog-buttons">
               <div className="blog-button">
-                <a href="https://forum.gwei.cz/">
+                <a href="https://forum.gwei.cz/" target="_blank">
                   <span>VÍCE NOVINEK O <b>GWEI</b></span>
                 </a>
               </div>
@@ -33,7 +33,7 @@ function Blog() {
           </div>
 
           <div className="twitter-wrapper">
-            <a href="https://twitter.com/gweicz" className="twitter-header">
+            <a href="https://twitter.com/gweicz" className="twitter-header" target="_blank">
               <h2>@GWEICZ</h2>
               <h3>SLEDUJTE NÁS</h3>
             </a>

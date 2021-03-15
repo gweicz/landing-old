@@ -16,14 +16,13 @@ function Projects() {
           <h2 className="section-title">Komunitní Projekty</h2>
           
           <p className="projects-text">
-            Komunitně vytváříme užitečné nástroje, sbíráme a překládáme důležité informace
+            Vytváříme užitečné nástroje, sbíráme a překládáme důležité informace
             pro fanoušky prahnoucí po vzdělání o Ethereu a jeho ekosystému.
           </p>
 
           <div className="project-buttons">
-
             <div className="project-button">
-              <a href="https://prirucka.gwei.cz/">
+              <a href="https://prirucka.gwei.cz/" target="_blank">
                 <BookIcon id="guide-icon" />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
@@ -38,7 +37,7 @@ function Projects() {
             </div>
 
             <div className="project-button">
-              <a href="https://hackmd.io/@gweicz/defi-toolkit">
+              <a href="https://hackmd.io/@gweicz/defi-toolkit" target="_blank">
                 <DeFiIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
@@ -53,7 +52,7 @@ function Projects() {
             </div>
 
             <div className="project-button">
-              <a href="https://czsk-scena.gwei.cz/">
+              <a href="https://czsk-scena.gwei.cz/" target="_blank">
                 <CryptoSceneIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
@@ -68,7 +67,7 @@ function Projects() {
             </div>
 
             <div className="project-button">
-              <a href="https://forum.gwei.cz/t/novinkovy-web-o-kryptomenach/232">
+              <a href="https://forum.gwei.cz/t/novinkovy-web-o-kryptomenach/232" target="_blank">
                 <NewsIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
@@ -83,8 +82,8 @@ function Projects() {
               </a>
             </div>
 
-            <div className="project-button">
-              <a href="https://github.com/gweicz/dczk">
+            <div className="project-button grey">
+              <a href="https://github.com/gweicz/dczk" target="_blank">
                 <DczkIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">

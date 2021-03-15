@@ -12,15 +12,15 @@ function Footer() {
         <h3>Přidejte se do naší komunity!</h3>
         
         <div className="footer-social-icons">
-          <a href="https://forum.gwei.cz/" className="social-icon">
+          <a href="https://forum.gwei.cz/" className="social-icon" target="_blank">
             <ForumIcon />
           </a>
 
-          <a href="https://discord.gg/FpxwbnM" className="social-icon">
+          <a href="https://discord.gg/FpxwbnM" className="social-icon" target="_blank">
             <FontAwesomeIcon icon={['fab', 'discord']} style={{ color: 'rgb(114, 137, 218)' }} />
           </a>
 
-          <a href="https://twitter.com/gweicz" className="social-icon">
+          <a href="https://twitter.com/gweicz" className="social-icon" target="_blank">
             <FontAwesomeIcon icon={['fab', 'twitter']} style={{ color: 'rgb(29,161,242)' }} />
           </a>
         </div>
