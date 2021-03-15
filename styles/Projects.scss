@@ -150,7 +150,7 @@
       margin-bottom: 0;
     }
 
-    .project-button a {
+    .project-button a{
       flex-direction: row;
       text-align: left;
     }
@@ -236,7 +236,31 @@
 
 @media screen and (min-width: 992px) {
   .projects-wrapper .right-panel {
-    max-width: 960px;
+    max-width: 640px;
     margin: 0 auto;
+  }
+
+  .project-buttons .project-button {
+    max-width: 640px;
+  }
+
+  .project-buttons .project-button .project-header-wrapper {
+    max-width: 470px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects-wrapper .right-panel {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .project-buttons .project-button {
+    width: 660px;
+    max-width: none;
+  }
+
+  .project-buttons .project-button svg {
+    margin-right: 2rem;
   }
 }

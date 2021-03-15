@@ -34,18 +34,20 @@ function SupportUs() {
                 nás můžete buď zasláním kryptoměn nebo v rámci&nbsp;
                 <a href="https://gitcoin.co/grants/">Gitcoin grantů</a>.
               </p>
-              <div className="ethereum-addresses-wrapper">
-                <p className="ethereum-address">
-                  <span style={{fontWeight: '500'}}>ETH Adresa (ENS):</span> <br/>
-                  <span>gweicz.eth</span>
-                </p>
-                <p className="ethereum-address">
-                  <span style={{fontWeight: '500'}}>ETH Adresa:</span> <br/>
-                  <span style={{wordWrap: 'break-word'}}>0x4D07aF703C163540c59763fF404710204334AF81</span>
-                </p>
-              </div>
-              <div className="qr-code">
-                <img src="/assets/images/gwei-qrcode.png" alt="Gwei.cz Ethereum Wallet Address QR Code"/>
+              <div className="financial-support-addresses">
+                <div className="ethereum-addresses-wrapper">
+                  <p className="ethereum-address">
+                    <span style={{fontWeight: '500'}}>ETH Adresa (ENS):</span> <br/>
+                    <span>gweicz.eth</span>
+                  </p>
+                  <p className="ethereum-address">
+                    <span style={{fontWeight: '500'}}>ETH Adresa:</span> <br/>
+                    <span style={{wordWrap: 'break-word'}}>0x4D07aF703C163540c59763fF404710204334AF81</span>
+                  </p>
+                </div>
+                <div className="qr-code">
+                  <img src="/assets/images/gwei-qrcode.png" alt="Gwei.cz Ethereum Wallet Address QR Code"/>
+                </div>
               </div>
             </div>
           </div>

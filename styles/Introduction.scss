@@ -219,8 +219,18 @@
   }
 
   .introduction-wrapper {
-    max-width: 960px;
     margin: 0 auto;
+    width: fit-content;
+    position: relative;
+  }
+
+  .introduction-wrapper .right-panel {
+    max-width: 640px;
+  }
+
+  .introduction-wrapper .left-panel {
+    position: absolute;
+    left: -10.5rem;
   }
 
   .introduction-wrapper .right-panel .heading h2 {
@@ -237,5 +247,31 @@
 
   .introduction-wrapper .left-panel .panel-logo {
     margin: 1.75rem .5rem 1rem 1rem;
+  }
+
+  .social-buttons {
+    max-width: 800px;
+    margin: 3rem auto 1rem auto;
+
+    .social-button {
+      max-width: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .introduction-wrapper .right-panel {
+    max-width: 800px;
+  }
+
+  .introduction-wrapper .left-panel {
+    position: absolute;
+    left: -11rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .introduction-wrapper .left-panel {
+    left: -13rem;
   }
 }

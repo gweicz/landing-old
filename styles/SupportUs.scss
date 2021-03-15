@@ -184,10 +184,6 @@
 }
 
 @media screen and (min-width: 992px) {
-  .support-wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-  }
 
   #financial-support {
     margin-right: 2rem;
@@ -200,11 +196,19 @@
 
     .qr-code {
       margin-top: 3rem;
+      margin-left: 0;
     }
   }
 
   .dao-wrapper .right-panel {
-    max-width: 960px;
+    max-width: 800px;
     margin: 0 auto;
+  }
+
+  .financial-support-addresses {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
   }
 }
