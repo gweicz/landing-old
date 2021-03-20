@@ -23,7 +23,7 @@ function Introduction() {
           </div>
 
           <p className="introduction-text">
-            Jsme komunita nadšenců, kteří se snaží šířit myšlenku svobodných peněž a představovat veřejnosti jejich praktické využití v rámci decentralizovaných aplikací.
+            Jsme komunita nadšenců, kteří se snaží šířit myšlenku svobodných peněz a představovat veřejnosti jejich praktické využití v rámci decentralizovaných aplikací.
             <br/>
             <a href="https://forum.gwei.cz/t/vitejte-na-diskuznim-foru-gwei-cz/7" target="_blank"> Více informací o komunitě ></a>
           </p>
