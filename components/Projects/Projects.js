@@ -67,11 +67,11 @@ function Projects() {
             </div>
 
             <div className="project-button">
-              <a href="https://forum.gwei.cz/t/novinkovy-web-o-kryptomenach/232" target="_blank">
+              <a href="https://bankless.cz" target="_blank">
                 <NewsIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
-                    <h4>NOVINKOVÝ WEB</h4>
+                    <h4>BANKLESS</h4>
                     <h6 className="project-status">VE VÝVOJI</h6>
                   </div>
                   <p>

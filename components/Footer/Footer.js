@@ -12,6 +12,10 @@ function Footer() {
         <h3>Přidejte se do naší komunity!</h3>
         
         <div className="footer-social-icons">
+          <a href="https://github.com/gweicz" className="social-icon" target="_blank">
+            <FontAwesomeIcon icon={['fab', 'github']} style={{ color: 'rgb(0, 0, 0)' }} />
+          </a>
+
           <a href="https://forum.gwei.cz/" className="social-icon" target="_blank">
             <ForumIcon />
           </a>

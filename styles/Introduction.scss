@@ -150,6 +150,31 @@
       margin: 0 .5rem 2rem .5rem;
     }
 
+    .social-button-github {
+      max-width: none !important;
+      width: 100%;
+      margin: 0 1.5rem 2rem 1.5rem !important;
+    }
+
+    .social-button-github a {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0.5rem 1rem;
+    }
+
+    .social-button-github a .button-github-text {
+      text-align: left;
+    }
+
+    .social-button-github a .button-github-text h4 {
+      margin: 0;
+    }
+
+    .social-button-github svg {
+      margin-right: 1.5rem;
+    }
+
     .social-button h4 {
       font-size: .9rem;
     }

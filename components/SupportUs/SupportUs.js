@@ -39,7 +39,7 @@ function SupportUs() {
               <p>
                 Peníze využijeme k financování naší komunity, případně přerozdělíme jednotlivým projektům.
                 Podpořit nás můžete buď zasláním kryptoměn nebo v rámci&nbsp;
-                <a href="https://gitcoin.co/grants/" target="_blank">Gitcoin grantů</a>.
+                <a href="https://gitcoin.co/grants/590/gweicz-czsk-defiethereum-community" target="_blank">Gitcoin grantů</a>.
               </p>
               <div className="financial-support-addresses">
                 <div className="ethereum-addresses-wrapper">

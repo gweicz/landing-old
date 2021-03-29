@@ -61,6 +61,20 @@ function Introduction() {
           </a>
         </div>
       </div>
+
+      <div className="social-buttons" style={{ marginTop: '-1rem' }}>
+        <div className="social-button social-button-github">
+          <a href="https://github.com/gweicz" target="_blank">
+            <FontAwesomeIcon icon={['fab', 'github']} style={{color: 'rgb(255,255,255)'}}/>
+            <div className="button-github-text">
+              <h4>GitHub</h4>
+              <p>
+                Všechny projekty, na kterých pracujeme, jsou open-source a najdete je na našem GitHubu.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
