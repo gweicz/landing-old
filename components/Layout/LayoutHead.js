@@ -11,7 +11,7 @@ const LayoutHead = () => {
       <title>Gwei.cz | CZ/SK Ethereum/DeFi komunita</title>
 
       <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.png" />
     </Head>
   )
 }
