@@ -38,7 +38,7 @@ function Header() {
       <div className="menu menu-desktop">
         <div className="menu-items-container">
           <ul>
-            <li><a href="https://forum.gwei.cz/t/vitejte-na-diskuznim-foru-gwei-cz/7"> O Komunitě </a></li>
+            <li><a href="https://komunita.gwei.cz/"> O Komunitě </a></li>
             <li><a href="https://forum.gwei.cz/" target="_blank"> Fórum </a></li>
             <li><b> · </b></li>
             <li><a href="https://gwei.cz/prirucka/" target="_blank"> Příručka </a></li>

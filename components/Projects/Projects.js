@@ -21,8 +21,41 @@ function Projects() {
           </p>
 
           <div className="project-buttons">
+
             <div className="project-button">
-              <a href="https://prirucka.gwei.cz/" target="_blank">
+              <a href="https://komunita.gwei.cz/projekty/etheroom">
+                <CryptoSceneIcon />
+                <div className="project-header-wrapper">
+                  <div className="project-title-wrapper">
+                    <h4>#ETHEROOM</h4>
+                  </div>
+                  <p>
+                    Hlasová místnost s pravidelným programem, kde se scházíme a
+                    diskutujeme Ethereum a DeFi.
+                  </p>
+                </div>
+                <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
+              </a>
+            </div>
+
+            {/*<div className="project-button">
+              <a href="https://komunita.gwei.cz/projekty/summit">
+                <DeFiIcon />
+                <div className="project-header-wrapper">
+                  <div className="project-title-wrapper">
+                    <h4>GWEI.CZ SUMMIT</h4>
+                    <h6 className="project-status">PRVNÍ ROČNÍK 07/2021</h6>
+                  </div>
+                  <p>
+                    Každoroční komunitní setkání, plné přednášek, workshopů a panelových diskuzí.
+                  </p>
+                </div>
+                <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
+              </a>
+            </div>*/}
+
+            <div className="project-button">
+              <a href="https://prirucka.gwei.cz/prirucka/" target="_blank">
                 <BookIcon id="guide-icon" />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
@@ -81,23 +114,6 @@ function Projects() {
                 <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
               </a>
             </div>
-
-            <div className="project-button grey">
-              <a href="https://github.com/gweicz/dczk" target="_blank">
-                <DczkIcon />
-                <div className="project-header-wrapper">
-                  <div className="project-title-wrapper">
-                    <h4>DCZK STABLECOIN</h4>
-                    <h6 className="project-status">POZASTAVEN</h6>
-                  </div>
-                  <p>
-                    Decentralizovaný stablecoin běžící na síti Ethereum, navázaný na kurz CZK.
-                  </p>
-                </div>
-                <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
-              </a>
-            </div>
-
           </div>
         </div>
       </div>

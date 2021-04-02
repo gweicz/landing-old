@@ -25,7 +25,7 @@ function Introduction() {
           <p className="introduction-text">
             Jsme komunita nadšenců, kteří se snaží šířit myšlenku svobodných peněz a představovat veřejnosti jejich praktické využití v rámci decentralizovaných aplikací.
             <br/>
-            <a href="https://forum.gwei.cz/t/vitejte-na-diskuznim-foru-gwei-cz/7" target="_blank"> Více informací o komunitě ></a>
+            <a href="https://komunita.gwei.cz/" target="_blank"> Více informací o komunitě ></a>
           </p>
         </div>
       </div>
@@ -42,7 +42,7 @@ function Introduction() {
         </div>
 
         <div className="social-button">
-          <a href="https://discord.gg/FpxwbnM" target="_blank">
+          <a href="https://chat.gwei.cz" target="_blank">
             <DiscordIcon />
             <h4>Discord Chat</h4>
             <p>

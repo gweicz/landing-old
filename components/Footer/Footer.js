@@ -20,7 +20,7 @@ function Footer() {
             <ForumIcon />
           </a>
 
-          <a href="https://discord.gg/FpxwbnM" className="social-icon" target="_blank">
+          <a href="https://chat.gwei.cz/" className="social-icon" target="_blank">
             <FontAwesomeIcon icon={['fab', 'discord']} style={{ color: 'rgb(114, 137, 218)' }} />
           </a>
 
