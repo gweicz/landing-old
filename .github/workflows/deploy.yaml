@@ -1,0 +1,34 @@
+name: deploy to gh-pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
+      
+      - name: Build
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: build
+
+      - name: Pre-deploy
+        uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: pre-deploy
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
+
