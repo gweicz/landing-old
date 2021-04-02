@@ -5,7 +5,7 @@ const LayoutHead = () => {
     <Head>
       <meta
         name="description"
-        content="Jsme komunita Ethereum/DeFi nadšenců, kteří se snaží tyto dvě technologie přiblížit širší krypto komunitě, tvořit v rámci ní projekty a představit jí tak praktické využití kryptoměn, jako peněz v decentralizovaných aplikacích, které běží na síti Ethereum."
+        content="Jsme komunita nadšenců, kteří se snaží šířit myšlenku svobodných peněz a představovat veřejnosti jejich praktické využití v rámci decentralizovaných aplikací."
       />
 
       <title>Gwei.cz | CZ/SK Ethereum/DeFi komunita</title>
