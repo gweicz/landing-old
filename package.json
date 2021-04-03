@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "pre-deploy": "touch out/.nojekyll && touch out/CNAME && echo \"beta.gwei.cz\" >> out/CNAME",
+    "pre-deploy": "touch out/.nojekyll && touch out/CNAME && echo \"gwei.cz\" >> out/CNAME",
     "deploy": "yarn build && yarn pre-deploy && gh-pages -t -d out",
     "start": "next start"
   },
