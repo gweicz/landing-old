@@ -55,7 +55,7 @@ function Projects() {
             </div>*/}
 
             <div className="project-button">
-              <a href="https://prirucka.gwei.cz/prirucka/" target="_blank">
+              <a href="https://prirucka.gwei.cz/" target="_blank">
                 <BookIcon id="guide-icon" />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">

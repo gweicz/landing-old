@@ -41,7 +41,7 @@ function Header() {
             <li><a href="https://komunita.gwei.cz/"> O Komunitě </a></li>
             <li><a href="https://forum.gwei.cz/" target="_blank"> Fórum </a></li>
             <li><b> · </b></li>
-            <li><a href="https://gwei.cz/prirucka/" target="_blank"> Příručka </a></li>
+            <li><a href="https://prirucka.gwei.cz/" target="_blank"> Příručka </a></li>
             <li><a href="https://hackmd.io/@gweicz/defi-toolkit" target="_blank"> DeFi Toolkit </a></li>
             <li><a href="https://czsk-scena.gwei.cz/" target="_blank"> CZ/SK Komunita </a></li>
             <li><a href="https://bankless.cz" target="_blank"> Bankless </a></li>
