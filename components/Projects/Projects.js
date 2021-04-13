@@ -108,7 +108,7 @@ function Projects() {
                     <h6 className="project-status">VE VÝVOJI</h6>
                   </div>
                   <p>
-                    Novinky se světa kryptoměn, s hlavním zaměřením na Ethereum/DeFi.
+                    Novinky ze světa kryptoměn, s hlavním zaměřením na Ethereum/DeFi.
                   </p>
                 </div>
                 <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
