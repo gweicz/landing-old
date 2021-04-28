@@ -105,7 +105,6 @@ function Projects() {
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
                     <h4>BANKLESS</h4>
-                    <h6 className="project-status">VE VÝVOJI</h6>
                   </div>
                   <p>
                     Novinky ze světa kryptoměn, s hlavním zaměřením na Ethereum/DeFi.
