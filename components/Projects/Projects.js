@@ -104,7 +104,7 @@ function Projects() {
                 <NewsIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
-                    <h4>BANKLESS</h4>
+                    <h4>BANKLESS CZECH</h4>
                   </div>
                   <p>
                     Novinky ze světa kryptoměn, s hlavním zaměřením na Ethereum/DeFi.
