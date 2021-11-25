@@ -12,7 +12,7 @@ function Projects() {
     <div className="section section-projects">
       <div className="projects-wrapper">
         <div className="left-panel"/>
-        <div className="righe-panel">
+        <div className="right-panel">
           <h2 className="section-title">Komunitní Projekty</h2>
           
           <p className="projects-text">
