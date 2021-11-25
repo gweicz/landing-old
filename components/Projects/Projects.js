@@ -12,7 +12,7 @@ function Projects() {
     <div className="section section-projects">
       <div className="projects-wrapper">
         <div className="left-panel"/>
-        <div className="right-panel">
+        <div className="righe-panel">
           <h2 className="section-title">Komunitní Projekty</h2>
           
           <p className="projects-text">
@@ -23,7 +23,22 @@ function Projects() {
           <div className="project-buttons">
 
             <div className="project-button">
-              <a href="https://komunita.gwei.cz/projekty/etheroom">
+              <a href="https://komunita.gwei.cz/" target="_blank">
+                <BookIcon id="guide-icon" />
+                <div className="project-header-wrapper">
+                  <div className="project-title-wrapper">
+                    <h4>Komunitní Gwei.cz dokumentace</h4>
+                  </div>
+                  <p>
+                    Vše o naší komunitě, naše historie, jak se k nám můžete přidat, jak nás podpořit a všechny další podstatné informace.
+                  </p>
+                </div>
+                <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
+              </a>
+            </div>
+
+            <div className="project-button">
+              <a href="https://komunita.gwei.cz/udalosti/etheroom">
                 <CryptoSceneIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
@@ -54,7 +69,7 @@ function Projects() {
               </a>
             </div>*/}
 
-            <div className="project-button">
+            {/*<div className="project-button">
               <a href="https://prirucka.gwei.cz/" target="_blank">
                 <BookIcon id="guide-icon" />
                 <div className="project-header-wrapper">
@@ -67,7 +82,7 @@ function Projects() {
                 </div>
                 <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
               </a>
-            </div>
+            </div>*/}
 
             <div className="project-button">
               <a href="https://hackmd.io/@gweicz/defi-toolkit" target="_blank">
@@ -84,7 +99,7 @@ function Projects() {
               </a>
             </div>
 
-            <div className="project-button">
+            {/* <div className="project-button">
               <a href="https://czsk-scena.gwei.cz/" target="_blank">
                 <CryptoSceneIcon />
                 <div className="project-header-wrapper">
@@ -97,14 +112,14 @@ function Projects() {
                 </div>
                 <FontAwesomeIcon className="project-angle-right" icon="angle-right" />
               </a>
-            </div>
+            </div>*/}
 
             <div className="project-button">
               <a href="https://bankless.cz" target="_blank">
                 <NewsIcon />
                 <div className="project-header-wrapper">
                   <div className="project-title-wrapper">
-                    <h4>BANKLESS CZECH</h4>
+                    <h4>BANKLESS.CZ</h4>
                   </div>
                   <p>
                     Novinky ze světa kryptoměn, s hlavním zaměřením na Ethereum/DeFi.
