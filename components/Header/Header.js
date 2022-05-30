@@ -42,7 +42,7 @@ function Header() {
             <li><b> · </b></li>
             <li><a href="https://forum.gwei.cz/" target="_blank"> Fórum </a></li>
             <li><a href="https://chat.gwei.cz/" target="_blank"> Discord </a></li>
-            <li><a href="https://chat.gwei.cz/" target="_blank"> Twitter </a></li>
+            <li><a href="https://twitter.com/gweicz" target="_blank"> Twitter </a></li>
             <li><b> · </b></li>
             <li><a href="https://hackmd.io/@gweicz/defi-toolkit" target="_blank"> DeFi Toolkit </a></li>
             <li><a href="https://bankless.cz" target="_blank"> Bankless.cz </a></li>
